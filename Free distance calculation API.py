@@ -20,8 +20,8 @@ for i in range(0,len(df)):
         df.loc[i,'Current Geographical duration']=(a['rows'][0]['elements'][0]['duration']['value'])/60
     else:
 #        print("Nothing")
-        df.loc[i,'Current Geographical distance']=""
-        df.loc[i,'Current Geographical duration']=""
+        df.loc[i,'Current Geographical distance']=0
+        df.loc[i,'Current Geographical duration']=0
 
 
 df.to_excel('Your path')
