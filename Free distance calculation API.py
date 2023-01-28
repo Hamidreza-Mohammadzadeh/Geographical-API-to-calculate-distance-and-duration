@@ -24,5 +24,5 @@ for i in range(0,len(df)):
         df.loc[i,'Current Geographical duration']=""
 
 
-df.to_excel('Your export path')
+df.to_excel('Your path')
 
